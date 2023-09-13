@@ -1,0 +1,48 @@
+header{
+    padding: 24px;
+    background: #181818;
+
+}
+
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    margin-left: 32px;
+}
+
+header nav li a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header nav ul li:first-of-type{
+    margin-right: 24px;
+}
+
+header nav ul li:last-of-type a{
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 11px 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
